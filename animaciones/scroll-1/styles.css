@@ -1,8 +1,8 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+  } */
   
   html{ 
     scroll-behavior: smooth;
@@ -24,4 +24,13 @@ main {
     width: 0%;
     background-color: red;
     height: 1em;
+
+
+    animation: progress-grow auto linear;
+    animation-timeline: scroll(root block)
+}
+
+@keyframes progress-grow {
+    from { width: 0%;}
+    to { width: 100%;}
 }
