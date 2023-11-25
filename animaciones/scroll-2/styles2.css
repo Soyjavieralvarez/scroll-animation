@@ -29,7 +29,7 @@ section {
 }
 
 section img {
-    border-radius: 20px;
+    border-radius: 10px;
     width: 90%;
     height: auto;
     margin-bottom: 32px;
@@ -61,5 +61,12 @@ section img {
         backdrop-filter: blur(5px);
         font-size: 18px;
         color:black;
+    }
+}
+
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    section {
+        columns: 2; /* Cambia a 2 columnas para pantallas más pequeñas */
     }
 }
