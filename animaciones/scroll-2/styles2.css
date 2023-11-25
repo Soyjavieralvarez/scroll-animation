@@ -23,14 +23,14 @@ body {
 }
 
 section {
-    columns: 2; /* El orden de las columnas es de arriba/abajo, no de izquierda a derecha */
+    columns: 3; /* El orden de las columnas es de arriba/abajo, no de izquierda a derecha */
     padding: 16px 32px;
     column-gap: 16px;
 }
 
 section img {
-    border-radius: 4px;
-    width: 100%;
+    border-radius: 20px;
+    width: 90%;
     height: auto;
     margin-bottom: 32px;
 
